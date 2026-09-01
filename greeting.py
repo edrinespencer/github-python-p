@@ -1,7 +1,8 @@
 # Unit 2 GitHub for Python - Version Control Practice
-# This first version displays a simple greeting.
+# This version refactors the greeting into a reusable function.
 
-name = "Edrine"
+def greet(name):
+    print("Hello " + name)
+    print("Welcome to my GitHub Python project.")
 
-print("Hello " + name)
-print("Welcome to my GitHub Python project.")
+greet("Edrine")
